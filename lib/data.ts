@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/lms.png";
-import rmtdevImg from "@/public/ecommerce.png";
-import wordanalyticsImg from "@/public/discord.png";
+import issue from "@/public/issue.png";
+import gamehub from "@/public/gamehub.png";
+import nike from "@/public/nike.png";
 
 export const links = [
   {
@@ -92,24 +92,29 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Learning Management System",
-    description:
-      "LMS is a platform where teachers can authenticate, add, edit, publish, sell, and check sales of courses and students can purchase them. ",
-    tags: ["React", "Next 13", "Tailwind CSS", "Prisma", "MySQL", "Stripe"],
-    imageUrl: corpcommentImg,
+    title: "Issue Tracker",
+    description: "Issue Tracker is a platform where Users can authenticate, view, create, edit, delete an issue ",
+    tags: ["Next 13.4", "Tailwind CSS", "Typescript", "RadixUI", "Prisma", "MySQL"],
+    imageUrl: issue,
+    href: "https://sk-issue-tracker-nine.vercel.app/",
+    github: "https://github.com/srikrishna7272/issue-tracker",
   },
   {
-    title: "E-Commerce Store",
-    description: "It is a store where admin can add multiple products in different categories and users can buy them. ",
-    tags: ["React", "Next 13", "Tailwind CSS", "Prisma", "MySQL"],
-    imageUrl: rmtdevImg,
+    title: "Game Hub",
+    description:
+      "It is a platform where users can search for different types of games based on platform, relevance or genres",
+    tags: ["React", "chakra ui", "TypeScript", "Tailwind CSS", "API"],
+    imageUrl: gamehub,
+    href: "https://game-hub-srikrishna7272.vercel.app/",
+    github: "https://github.com/srikrishna7272/game-hub",
   },
   {
-    title: "Discord Clone",
-    description:
-      "A real-time messaging application where users can chat, video call, create groups, invite links in one place.",
-    tags: ["React", "Next 13", "Socket.io", "Tailwind", "Clerk"],
-    imageUrl: wordanalyticsImg,
+    title: "Nike Landing Page",
+    description: "A visually stunning landing page built completely using TailwindCSS",
+    tags: ["TailwindCSS", "react", "TypeScript"],
+    imageUrl: nike,
+    href: "https://nike-l13alp2yu-srikrishna7272.vercel.app/",
+    github: "https://github.com/srikrishna7272/NIKE",
   },
 ] as const;
 
