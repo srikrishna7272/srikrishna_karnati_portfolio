@@ -46,7 +46,7 @@ export default function Project({ title, description, tags, imageUrl, href, gith
               <Link href={github}>
                 <button
                   type="button"
-                  className="inline mt-2 mx-2 items-center py-1 text-sm font-medium text-center rounded-full text-white bg-black/[0.7] hover:bg-black/[0.9] focus:ring-4 focus:outline-none focus:ring-black-300 dark:bg-black/[0.7] dark:hover:bg-black/[0.9] dark:focus:ring-black-800"
+                  className="inline mt-2 px-2 items-center py-1 text-sm font-medium text-center rounded-full text-white bg-black/[0.7] hover:bg-black/[0.9] focus:ring-4 focus:outline-none focus:ring-black-300 dark:bg-black/[0.7] dark:hover:bg-black/[0.9] dark:focus:ring-black-800"
                 >
                   Source Code
                   <span className="inline-flex items-center justify-center w-4 h-4 ml-2 text-xs font-semibold text-white bg-black/[0.7] rounded-full">
