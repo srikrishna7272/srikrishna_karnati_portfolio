@@ -5,6 +5,8 @@ import { LuGraduationCap } from "react-icons/lu";
 import issue from "@/public/issue.png";
 import gamehub from "@/public/gamehub.png";
 import nike from "@/public/nike.png";
+import pageform from "@/public/pageform.png";
+import pricewise from "@/public/pricewise.png";
 
 export const links = [
   {
@@ -92,6 +94,15 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "PageForm",
+    description:
+      "Pageform is a web application that can Manage event registrations, create a quick opinion poll, create quizzes, and much more.",
+    tags: ["Next 13.4", "Tailwind CSS", "Typescript", "Shadcn", "Prisma ORM", "PostgreSQL"],
+    imageUrl: pageform,
+    href: "https://page-form-livid.vercel.app/",
+    github: "https://github.com/srikrishna7272/page-form",
+  },
+  {
     title: "Issue Tracker",
     description: "Issue Tracker is a platform where Users can authenticate, view, create, edit, delete an issue ",
     tags: ["Next 13.4", "Tailwind CSS", "Typescript", "RadixUI", "Prisma", "MySQL"],
@@ -107,6 +118,15 @@ export const projectsData = [
     imageUrl: gamehub,
     href: "https://game-hub-srikrishna7272.vercel.app/",
     github: "https://github.com/srikrishna7272/game-hub",
+  },
+  {
+    title: "Price Wise",
+    description:
+      "Pricewise is a web-scrapping tool built with nextjs 13.5, typescript, mongoose, headless UI, tailwindCSS, cronjob, nodemailer.",
+    tags: ["Nextjs", "TypeScript", "Tailwind CSS", "MongoDB"],
+    imageUrl: pricewise,
+    href: "https://price-wise-zeta.vercel.app/",
+    github: "https://github.com/srikrishna7272/price-wise",
   },
   {
     title: "Nike Landing Page",
