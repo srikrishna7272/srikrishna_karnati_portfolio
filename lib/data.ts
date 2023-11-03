@@ -7,7 +7,8 @@ import gamehub from "@/public/gamehub.png";
 import nike from "@/public/nike.png";
 import pageform from "@/public/pageform.png";
 import pricewise from "@/public/pricewise.png";
-
+import admin from "@/public/admin.png";
+import store from "@/public/store.png";
 export const links = [
   {
     name: "Home",
@@ -93,6 +94,24 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "E-commerce Admin",
+    description:
+      "E-commerce is an application where the users can sell products based on different categories. We can add products & categories from Admin Dashboard & CMS",
+    tags: ["Next 13.4", "Tailwind CSS", "Typescript", "Shadcn", "Prisma ORM", "MySQL"],
+    imageUrl: admin,
+    href: "https://ecommerce-store-srikrishna7272.vercel.app/",
+    github: "https://github.com/srikrishna7272/ecommerce-admin",
+  },
+  {
+    title: "E-commerce Store",
+    description:
+      "E-commerce is an application where the users can sell products based on different categories. We can add products & categories from Admin Dashboard & CMS",
+    tags: ["Next 13.4", "Tailwind CSS", "Typescript", "Shadcn", "Prisma ORM", "MySQL"],
+    imageUrl: store,
+    href: "https://ecommerce-store-sk.vercel.app/",
+    github: "https://github.com/srikrishna7272/ecommerce-store",
+  },
   {
     title: "PageForm",
     description:
