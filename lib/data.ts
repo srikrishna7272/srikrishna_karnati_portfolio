@@ -97,7 +97,7 @@ export const projectsData = [
   {
     title: "E-commerce Admin",
     description:
-      "is an application where the users can sell products based on different categories. We can add products & categories from Admin Dashboard & CMS",
+      "is an application where the users can sell using store and they can add products from Admin Dashboard & CMS",
     tags: ["Next 13.4", "Tailwind CSS", "Typescript", "Shadcn", "Prisma ORM", "MySQL"],
     imageUrl: admin,
     href: "https://ecommerce-store-srikrishna7272.vercel.app/",
@@ -106,7 +106,7 @@ export const projectsData = [
   {
     title: "E-commerce Store",
     description:
-      "is an application where the users can sell products based on different categories. We can add products & categories from Admin Dashboard & CMS",
+      "is an application where the users can sell using store and they can add products from Admin Dashboard & CMS",
     tags: ["Next 13.4", "Tailwind CSS", "Typescript", "Shadcn", "Prisma ORM", "MySQL"],
     imageUrl: store,
     href: "https://ecommerce-store-sk.vercel.app/",
