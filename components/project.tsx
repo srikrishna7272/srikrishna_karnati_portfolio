@@ -28,7 +28,7 @@ export default function Project({ title, description, tags, imageUrl, href, gith
       className="group mb-3 sm:mb-8 last:mb-0"
     >
       <section className="bg-gray-100 max-w-[42rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-[20rem] hover:bg-gray-200 transition sm:group-even:pl-8 dark:text-white dark:bg-white/10 dark:hover:bg-white/20">
-        <Link href={href}>
+        <Link href={href} target="_blank">
           <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]">
             <h3 className="text-2xl font-semibold">{title}</h3>
             <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">{description}</p>
@@ -43,7 +43,7 @@ export default function Project({ title, description, tags, imageUrl, href, gith
               ))}
             </ul>
             <div>
-              <Link href={github}>
+              <Link href={github} target="_blank">
                 <button
                   type="button"
                   className="inline mt-2 px-2 items-center py-1 text-sm font-medium text-center rounded-full text-white bg-black/[0.7] hover:bg-black/[0.9] focus:ring-4 focus:outline-none focus:ring-black-300 dark:bg-black/[0.7] dark:hover:bg-black/[0.9] dark:focus:ring-black-800"
