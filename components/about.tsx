@@ -23,9 +23,9 @@ export default function About() {
         I like to resolve design problems, create smart user interface and imagine useful interaction, developing rich
         web experiences & web applications. I <span className="underline">love</span> the feeling of finally figuring
         out a solution to a problem. My core stack is{" "}
-        <span className="font-medium">React, Next.js, Node.js, ServiceNow and MongoDB</span>. I am also familiar with
+        <span className="font-medium">React, Next.js, SpringBoot, and MongoDB</span>. I am also familiar with
         TypeScript. I am always looking to learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a Software Developer or ServiceNow Developer.
+        <span className="font-medium">full-time position</span> as a Software Developer or FrontEnd Developer.
       </p>
 
       <p>
